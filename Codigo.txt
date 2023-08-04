@@ -1,0 +1,72 @@
+Chanchito Feliz 
+Hola grupo 
+el tema de hoy es como usar git 
+lista de comandos 
+
+$ git config --global user.name "Shadow00White" : Se agrag
+
+
+$ git config --global user.email mnltobon@gmail.com
+
+
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/disenoydesarrollo/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Shadow00White
+user.email=mnltobon@gmail.com
+
+
+ 
+$ git config --global core.editor "code --wait"
+
+
+$ git config --global --edit
+
+$ git config --global core.autocrlf True
+
+
+$ pwd
+/c/Users/disenoydesarrollo
+
+
+$ cd Desktop/
+
+$ ls
+'3DCoatGL64 - Acceso directo.lnk'*  'Nox - Acceso directo.lnk'*
+ ArchivosSalas.lnk*                 'Remover USB.exe'*
+'Blender 3.4.lnk'*                   START.exe*
+ CNC8070.lnk*                       'Screen Recorder.lnk'*
+'Eliminar Virus 2018.bat'           'Studio 3T.lnk'*
+ Evacuacion.mp4                     'Unreal Engine.lnk'*
+ FAGORCNC.lnk*                      'Visual Studio Code.lnk'*
+'Git Bash.lnk'*                      ZoomIt.exe*
+ MongoDBCompass.lnk*                 fSpy.lnk*
+
+
+$ mkdir MiPrimerG
+
+$ cd MiprimerG/
+
+$ git init
+
+
+
+$ code .
+
+
+$ git status
+
+$ git status -s
+?? Codigo.txt
